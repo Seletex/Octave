@@ -11,5 +11,6 @@ Y=(mX1+b mX2+b ... )=(1*X1 1*X2 ...)(b m)
 Y = a*u
 Imagen A
 Y E(pertenece) R^n/Y=a*u Au(para todo u perneteciente a)E R^n
-la misma cantidad de columnas en la matriz a que filas en la matriz u
-
+la misma cantidad de columnas en la matriz a que filas en la matriz u 
+b=[2 1;2 1]
+v' transpuesta de la matriz
