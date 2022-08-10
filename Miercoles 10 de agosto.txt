@@ -14,3 +14,8 @@ Y E(pertenece) R^n/Y=a*u Au(para todo u perneteciente a)E R^n
 la misma cantidad de columnas en la matriz a que filas en la matriz u 
 b=[2 1;2 1]
 v' transpuesta de la matriz
+
+Lo minimos cuadrados usan una estrategia de aumneto de la dimensionalidaD
+HAGAMOS DE CUENTA QUE TRABAJO EN UN BANCO Y TENGO INFORMACION DE MIS CLIENTES edad y estrato de su vivenda
+se definen tipos de cliente
+se usan algoritmos como redes neuronales 
