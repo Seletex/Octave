@@ -1,0 +1,15 @@
+f(x) = 0 - raices 
+grafica de representacion de los puntos y=mx+b
+de tal manero que si X es voltaje y Y es velocidad angular W el voltaje que entra al motor y sale como velocidad angular
+esa formula se conoce como regresion y cuando esa nube de puntos se acerca a la linea se llama regresion lineal
+Sumatoria E en^2
+(Yn - Yn^-)
+Yn=(Y1 Y2 Y3 Y4 ... Yn) - datos reales
+Yn = mXn +b
+Y=(mX1+b mX2+b ... )=(1*X1 1*X2 ...)(b m)
+                       matriz a      matriz u
+Y = a*u
+Imagen A
+Y E(pertenece) R^n/Y=a*u Au(para todo u perneteciente a)E R^n
+
+
