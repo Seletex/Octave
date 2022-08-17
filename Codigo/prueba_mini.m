@@ -6,15 +6,15 @@ close all
 
 %Definición de los valores independiantes de X
 
-x=(-5:0.25:10)';
-
+x=(-5:0.25:10)'
+y=(-4:1:9)';
 
 
 %Generación de datos para comprobación del funcionamiento
 
-m=0.1;
+x
+y
 
-b=4;
 
 y=m*x+b;
 
