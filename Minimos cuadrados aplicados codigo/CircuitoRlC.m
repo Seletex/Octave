@@ -3,9 +3,9 @@ close all
 clc
 
 Resistencia =1000
-Vr(1)=0.0001;
+Vr(1)=0;
 l=1;
-tama=50;
+tama=2500;
 unos=ones(1,tama);
 %sin derivar
 Vin=ones(tama,2);
@@ -22,8 +22,8 @@ endfor
 A = [unos'  Vr'  (Vl.^2)'];
 U=(inv(A'*A)*A')*unos'
 u = U';
-x1 = linspace(0,1,tama);
+x1 = linspace(0,5,tama);
 y1 = u(1) + u(2)*Vr + (1/u(3))*Vl.^2;
-subplot(5,1,3)
+
 plot(x1,y1)
 %hay que hacer R*Vin'+L*Vin''+1/c*Vin = E(t) se forma en matrices y ya se aplica para los coeficentes el metodo numerico
