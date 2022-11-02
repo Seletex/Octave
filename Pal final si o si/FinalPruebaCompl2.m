@@ -1865,7 +1865,8 @@ A1= [-1*[0;output(1:length(output)-1)], [0;input(1:length(input)-1)]];
 y = output;
 Coe1=inv(A1'*A1)*A1'*y;
 CoeInv1= Coe1'
-Saprox1 = tf([Coe1(2)],[1,Coe1(1)], 1)
+pan = c2d(tf([Coe1(2)],[1,Coe1(1)], 1))
+Saprox1 = pan
 [y11 t11]=lsim(Saprox1,input);
 hold on
 plot(t11, y11)
